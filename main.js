@@ -1,7 +1,64 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+function moreThan5(num) {
+  return num > 5
+}
 
+function isNewTopScore(num1, num2) {
+  return num1 > num2
+}
+
+function isInDanger(num) { 
+  return (num >= 60) && (num <= 71)
+}
+
+
+function isCoasting(num) {
+  return (num >= 72) && (num <= 83)
+}
+
+
+function isSucceeding(num) {
+  return (num >= 84) && (num <= 92)
+}
+
+
+function isFailing(num) {
+return num < 60
+}
+
+
+function isAcing(num) {
+  return num > 92
+}
+
+
+function isStudent(name) {
+  return name === 'student'
+}
+
+
+function isTeacher(name) {
+  return name ==='teacher'
+}
+
+
+function isAdmin(name) {
+  return name === 'admin'
+}
+
+
+function isElementary(name) {
+  return name === 'elementary'
+}
+
+function isMiddleSchoolTeacher(name, num) {
+  return name ===
+  
+  }
+  
+  
 
 
 
