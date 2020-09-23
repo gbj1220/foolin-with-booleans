@@ -53,12 +53,17 @@ function isElementary(name) {
   return name === 'elementary'
 }
 
-function isMiddleSchoolTeacher(name, num) {
-  return name ===
+function areDifferentPeople(name1, name2) {
+  return name1 !== name2
+}
   
-  }
-  
-  
+function isMiddleSchoolTeacher(role, gradelevel) {
+  return role === 'teacher' && gradelevel >=6 && gradelevel <=8
+}
+
+function notAnElementarySchoolAdministrator(level, role) {
+  return level !== 'elementary' || role !== 'admin';
+}
 
 
 
